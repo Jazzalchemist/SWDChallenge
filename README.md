@@ -1,1 +1,1 @@
-Where I save my #SWDChallenge submissions
+Where I save my [#SWDChallenge submissions](https://community.storytellingwithdata.com/challenges)
