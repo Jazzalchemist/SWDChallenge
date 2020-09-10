@@ -31,8 +31,6 @@ top250 <- top250 %>%
     bar_chart = bar_chart(bar, colour),
     bar_chart = map(bar_chart, ~gt::html(as.character(.x))))
 
-title = md("<span style='color:red'>some **This is Red Bold.** text</span>")
-
 #Filter top 20 and create table
 IMDb_table <- top250 %>% 
   select(Rank, Name, Director, Year, Rating, Votes, bar_chart) %>% 
